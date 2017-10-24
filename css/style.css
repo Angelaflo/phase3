@@ -1,0 +1,47 @@
+/* Paste in code from your old files to save time and avoid typos! */
+
+body {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.lefty {
+height: 100vh;
+ width: 50vw;
+}
+
+.righty {
+	height: 100vh;
+	width: 50vw;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box {
+	height: 50%;
+	width: 50%;
+}
+
+.lefty {background-color: #ff748c;}
+.green0 {background-color: #ff8da1;}
+.green1 {background-color: #ffa7b6;}
+.green2 {background-color: #ffc0cb;}
+.green3 {background-color: #ffdae0;}
+
+@media screen and (max-width:800px) {
+	
+	.lefty{
+		height: 50vh;
+		width: 100vw;
+	}
+	
+	.righty{
+		height: 50vh; 
+		width: 100vw;
+		
+	}
+	
+}
+
